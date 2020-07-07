@@ -1,0 +1,133 @@
+section
+{
+  background:#fff;
+}
+.banner
+{
+    background-image: url("img/hero.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30%;
+}
+.banner .row
+{
+  text-align:left;
+  margin-top:20%;
+
+}
+.banner h1
+{
+  color:white;
+}
+
+.banner p
+{
+  max-width: 50%;
+  font-size: 1.2em;
+  color: #fff;
+}
+
+
+.navbar 
+{
+ background: rgba(70, 70, 70,.8);
+ height: 100px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+ padding: 40px 20px 40px 20px;
+ font-weight: bold;
+}
+
+.form-group
+{
+  margin:50px;
+
+}
+
+
+
+.container
+{
+  width: 100%;
+}
+
+#feautered, #dogs, #parrots, #cats
+{
+  background-color: rgba(120, 120, 120, .2);
+  padding: 2% 5% 2% 5%;
+
+}
+
+.section_title
+{
+  padding: 2%;
+  background-color: darkgreen;
+  width: 100%;
+  top:0px;
+  left: 0px;
+  color: white;
+  text-align: center;
+}
+
+.card
+{
+  text-align: center;
+  background-color: #fff;
+
+
+}
+.card-body
+{
+  text-align: left;
+  padding: 5%;
+}
+.card-img-top
+{
+  width: 100%;
+}
+.card-body a
+{
+  color: green;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.card .text_on_img
+{
+  position: absolute;
+  color: white;
+  background-color: rgba(70, 70, 70,.4);
+  left: 10%;
+  top:5%;
+  font-weight: bold;
+}
+
+hr
+{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: auto;
+}
+
+
+footer{
+  text-align: center;
+  white-space: nowrap;
+}
+footer p{
+  line-height: 120px;
+  font-size: 1.3em;
+}
+
+#footnav {
+ padding: 0;
+}
+
+footer .navbar-brand{
+   line-height: 40px;
+   font-weight: bold;
+}
